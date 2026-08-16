@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Isometric 3D Mesh & Nodes -->
+    <!-- Top Face -->
+    <path
+        android:pathData="M54,26 L78,38 L54,50 L30,38 Z"
+        android:fillColor="#4D6366F1"
+        android:strokeColor="#818CF8"
+        android:strokeWidth="1.8" />
+
+    <!-- Left Face -->
+    <path
+        android:pathData="M30,38 L54,50 L54,78 L30,66 Z"
+        android:fillColor="#334F46E5"
+        android:strokeColor="#6366F1"
+        android:strokeWidth="1.8" />
+
+    <!-- Right Face -->
+    <path
+        android:pathData="M54,50 L78,38 L78,66 L54,78 Z"
+        android:fillColor="#5938BDF8"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8" />
+
+    <!-- Center Scanner Beam -->
+    <path
+        android:pathData="M24,54 L84,54"
+        android:strokeColor="#F43F5E"
+        android:strokeWidth="2.0" />
+
+    <!-- 3D Point Cloud Vertices -->
+    <!-- Center Top Point -->
+    <path
+        android:pathData="M54,26 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"
+        android:fillColor="#A5B4FC" />
+    <!-- Right Point -->
+    <path
+        android:pathData="M78,38 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"
+        android:fillColor="#38BDF8" />
+    <!-- Left Point -->
+    <path
+        android:pathData="M30,38 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"
+        android:fillColor="#818CF8" />
+    <!-- Center Point -->
+    <path
+        android:pathData="M54,50 m-3.5,0 a3.5,3.5 0 1,1 7,0 a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#F43F5E" />
+    <!-- Bottom Left Point -->
+    <path
+        android:pathData="M30,66 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"
+        android:fillColor="#6366F1" />
+    <!-- Bottom Right Point -->
+    <path
+        android:pathData="M78,66 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"
+        android:fillColor="#0EA5E9" />
+    <!-- Bottom Center Point -->
+    <path
+        android:pathData="M54,78 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"
+        android:fillColor="#38BDF8" />
+
+    <!-- Extra Cloud Points (Dense MVS) -->
+    <path
+        android:pathData="M42,32 m-1.5,0 a1.5,1.5 0 1,1 3,0 a1.5,1.5 0 1,1 -3,0"
+        android:fillColor="#E0E7FF" />
+    <path
+        android:pathData="M66,32 m-1.5,0 a1.5,1.5 0 1,1 3,0 a1.5,1.5 0 1,1 -3,0"
+        android:fillColor="#BAE6FD" />
+    <path
+        android:pathData="M42,58 m-1.5,0 a1.5,1.5 0 1,1 3,0 a1.5,1.5 0 1,1 -3,0"
+        android:fillColor="#C7D2FE" />
+    <path
+        android:pathData="M66,58 m-1.5,0 a1.5,1.5 0 1,1 3,0 a1.5,1.5 0 1,1 -3,0"
+        android:fillColor="#7DD3FC" />
+</vector>

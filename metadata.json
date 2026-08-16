@@ -1,0 +1,6 @@
+{
+  "name": "3D Scene Builder",
+  "description": "3D scene reconstruction app using BoofCV uncalibrated multi-view stereo from device camera images.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
